@@ -36,6 +36,6 @@ public void drawBranches(int x,int y, double branchLength, double angle)
     drawBranches(endX2, endY2, branchLength - fractionLength, angle2);
     stroke(159, 176, 150);
     drawBranches(endX1, endY1, branchLength - fractionLength, angle1-0.07);
-    drawBranches(endX2, endY2, branchLength - fractionLength, angle2);
+    drawBranches(endX2, endY2, branchLength - fractionLength, angle2+0.07);
   }
 } 
